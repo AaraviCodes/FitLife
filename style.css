@@ -1,0 +1,108 @@
+body {
+    font-family: cursive ,'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #d9f4ff;
+    color: #333;
+  }
+  
+  header {
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2d89ef;
+    padding: 1em 0;
+    z-index: 1000;
+  }
+  
+  nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  nav a:hover {
+    font-weight: bolder;
+    font-size: 18.2px;
+    color: beige;
+  }
+  
+  main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  section {
+    margin-bottom: 2em;
+    background: #fff;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background: #2d89ef;
+    color: white;
+    position: relative;
+    bottom: 0;
+    /* width: 100%; */
+  }
+  
+  h1, h2, h3 {
+    color: #2d89ef;
+  }
+  
+  ul li {
+    margin-bottom: 0.5em;
+  }
+  
+  iframe {
+    border-radius: 10px;
+    margin-bottom: 1em;
+  }
+  
+  .exercise-img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 0.5em;
+    border-radius: 8px;
+    display: block;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  input, textarea {
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: #2d89ef;
+    color: white;
+    padding: 0.7em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .day{
+    background-color: #d8f9ff;
+  }
